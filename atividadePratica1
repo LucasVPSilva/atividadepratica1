@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 1</title>
+  </head>
+
+  <body>
+    <main>
+      <header id="inicio">
+        <img
+          src="imagens/img600.jpg"
+          alt="minha_foto"
+          style="border-radius: 20%; width: 200px; height: auto"
+          srcset="
+            imagens/img600.jpg   600w,
+            imagens/img1000.jpg 1000w,
+            imagens/imgfull.jpg 1600w
+          "
+        />
+        <h2>Olá, seja bem-vindo!</h2>
+        <p>
+          Essa é a minha <i>Atividade 1</i>, do módulo de
+          <b>Programação FRONT-END I</b>.
+        </p>
+        <hr />
+      </header>
+
+      <section>
+        <h3>
+          <p><u>Mas quem sou eu?</u></p>
+        </h3>
+        <p><small>Bom, senta que lá vem história...</small></p>
+        <nav>
+          <ul>
+            <li><b>Nome:</b> Lucas Vinicius Pires Silva</li>
+            <li><b>Idade:</b> 33 anos</li>
+            <li><b>E-mail:</b> lucasvps@gmail.com</li>
+            <li><b>Cidade:</b> Goiânia</li>
+            <li><b>Estado:</b> Goiás</li>
+          </ul>
+        </nav>
+      </section>
+
+      <hr />
+      <section>
+        <h3><u>Vamos conhecer um pouco mais?</u></h3>
+        <p>
+          Faço parte da 13ª Edição do Programa Starter Full Stack Web da
+          GrowDev.
+        </p>
+        <p>
+          Sou bem comunicativo, não é a toa que atualmente trabalho como criador
+          de conteudo no YouTube, no qual falo sobre a Formula 1 e tambem sobre
+          o mundo do automobilismo.
+        </p>
+        <form action="http://www.youtube.com/pointf1" target="_blank">
+          <button type="submit">Acessar meu Canal</button>
+        </form>
+        <br />
+        <p>
+          Desde a metade de 2022, comecei a me aventurar no mundo do
+          desenvolvimento WEB, estudando vários conteudos gratuitos na internet,
+          porém sentia que meus estudos não progrediram, até que conheci a
+          <em>GrowDev</em>.
+        </p>
+        <p>
+          Agora desejo estudar e conhecer mais ainda sobre o desenvolvimento e
+          programação WEB para que em 2023, possa conseguir minha primeira
+          oportunidade nessa nova carreira.
+        </p>
+      </section>
+
+      <br />
+      <hr />
+
+      <footer>
+        <h4>Tem mais?</h4>
+        <p>
+          Sim... já me segue nas minhas redes sociais, lá estarei colocando toda
+          a minha evolução ao longo dessa minha jornada de desenvolvimento WEB.
+        </p>
+
+        <a
+          href="https://www.linkedin.com/in/lucas-vinicius-pires-50988778/"
+          target="_blank"
+          style="margin: 0px 100px 00px 350px"
+          >Linkedin</a
+        >
+        <a
+          href="https://github.com/LucasVPSilva"
+          target="_blank"
+          style="margin-right: 100px"
+          >Github</a
+        >
+        <a
+          href="https://www.instagram.com/lucasvspires/"
+          target="_blank"
+          style="margin-right: 100px"
+          >Instagram</a
+        >
+        <a href="mailto:lucasvps@gmail.com" target="_blank">E-mail</a>
+        <br />
+        <br />
+        <br />
+        <a href="#inicio"><small>Voltar para o Ínicio</small></a>
+      </footer>
+    </main>
+  </body>
+</html>
